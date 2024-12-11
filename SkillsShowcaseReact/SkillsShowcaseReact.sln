@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "skillsshowcasereact", "SkillsShowcaseReact\skillsshowcasereact.esproj", "{D815A860-3C5B-4F62-9D9D-11B222F487E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{561F8A51-4A8D-49B0-B001-2E7BE67C4135} = {561F8A51-4A8D-49B0-B001-2E7BE67C4135}
+		{591A0F2B-A165-4715-AA71-D9DC1BFB3EFE} = {591A0F2B-A165-4715-AA71-D9DC1BFB3EFE}
+		{F354763D-99F9-4D34-BDE2-0C9EEEEDC9C0} = {F354763D-99F9-4D34-BDE2-0C9EEEEDC9C0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillsShowcase.Api", "..\..\Software_Development_Showcase\SkillsShowcase\SkillsShowcase.Api\SkillsShowcase.Api.csproj", "{591A0F2B-A165-4715-AA71-D9DC1BFB3EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillsShowcase.Shared", "..\..\Software_Development_Showcase\SkillsShowcase\SkillsShowcase.Shared\SkillsShowcase.Shared.csproj", "{561F8A51-4A8D-49B0-B001-2E7BE67C4135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillsShowcase.TESTS.Shared", "..\..\Software_Development_Showcase\SkillsShowcase\SkillsShowcase.TESTS.Shared\SkillsShowcase.TESTS.Shared.csproj", "{F354763D-99F9-4D34-BDE2-0C9EEEEDC9C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D815A860-3C5B-4F62-9D9D-11B222F487E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D815A860-3C5B-4F62-9D9D-11B222F487E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D815A860-3C5B-4F62-9D9D-11B222F487E5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D815A860-3C5B-4F62-9D9D-11B222F487E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D815A860-3C5B-4F62-9D9D-11B222F487E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D815A860-3C5B-4F62-9D9D-11B222F487E5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{591A0F2B-A165-4715-AA71-D9DC1BFB3EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591A0F2B-A165-4715-AA71-D9DC1BFB3EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591A0F2B-A165-4715-AA71-D9DC1BFB3EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591A0F2B-A165-4715-AA71-D9DC1BFB3EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561F8A51-4A8D-49B0-B001-2E7BE67C4135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561F8A51-4A8D-49B0-B001-2E7BE67C4135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561F8A51-4A8D-49B0-B001-2E7BE67C4135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561F8A51-4A8D-49B0-B001-2E7BE67C4135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F354763D-99F9-4D34-BDE2-0C9EEEEDC9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F354763D-99F9-4D34-BDE2-0C9EEEEDC9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F354763D-99F9-4D34-BDE2-0C9EEEEDC9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F354763D-99F9-4D34-BDE2-0C9EEEEDC9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
